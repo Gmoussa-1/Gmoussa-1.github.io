@@ -2,13 +2,13 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: My Website
 logo:
-author: themefisher
+author: Georges Moussa
 description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+email: georgesmoussa444@gmail.com
+phone: +961 71 791 910
+address: 5 CHEMIN RAY CHARLES
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
@@ -36,7 +36,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Georges <br> a Data Science Student
 
 social:
   - { icon: "ti-facebook", link: "#" }
@@ -57,41 +57,41 @@ blurb-btn-name: know more
 
 # Work Process Section
 work-process:
-  - title: "Research and Plan"
+  - title: "Analyze and conclude"
     icon: "assets/images/icons/plan.png"
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-  - title: "Design and Develop"
+  - title: "Design and implement solutions"
     icon: "assets/images/icons/design.png"
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-  - title: "Deliver"
+  - title: "Deliver most appropriate solution"
     icon: "assets/images/icons/print.png"
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 # My Team Section
 team:
-  - title: "Jack Schenziwe"
+  - title: "Romain ROUVOY"
     image: "assets/images/team/member-1.png"
-    designation: "Project Manager"
+    designation: "Professor: Refresher in Computer Science"
 
-  - title: "Julias Carlie"
+  - title: "Pierre Tirilly"
     image: "assets/images/team/member-2.png"
-    designation: "Web Developer"
+    designation: "Professor: Algorithms & their Complexity 1"
 
-  - title: "John Doe"
+  - title: "Yann TeyTaut"
     image: "assets/images/team/member-3.png"
-    designation: "Designer"
+    designation: "Professor: Python & Tools for research"
 
 #-------------------------------
 # Skills Section
 
 skills-title: Skills
 skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
-  - { name: Web App, color: "#ffbcaa", value: "70%" }
+  - { name: Machine Learning, color: "#fdb157", value: "90%" }
+  - { name: Signal Procesing, color: "#9473e6", value: "60%" }
+  - { name: Computer Vision, color: "#bdecf6", value: "80%" }
+  - { name: Natural Language Processing , color: "#ffbcaa", value: "70%" }
 
 #-------------------------------
 # Exprerience Section
@@ -99,21 +99,21 @@ skills:
 experience-title: Experience
 experience:
   - {
-      name: Junior UX Designer,
-      icon: "icon-1.png",
-      date: "Jan 2007 - Feb 2009",
-      organization: "WEBEX",
-    }
-  - {
-      name: UX & UI Designer,
+      name: Annotator at KourAI,
       icon: "icon-2.png",
-      date: "Mar 2009 - Aug 2014",
+      date: "Feb 2021 - Mar 2023",
       organization: "AUGMEDIX",
     }
   - {
-      name: Senior UI Designer,
+      name: Freelance Web Development,
+      icon: "icon-1.png",
+      date: "Mar 2023 - June 2025",
+      organization: "WEBEX",
+    }
+  - {
+      name: ML Engineer,
       icon: "icon-3.png",
-      date: "Sep 2014 - Present",
+      date: June 2025 - Present",
       organization: "THEMEFISHER",
     }
 
@@ -123,24 +123,19 @@ experience:
 education-title: Education
 education:
   - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
+      name: Marters Data Science,
+      date: "Ongoing",
+      organization: "University of Lille & Centrale Lille",
     }
   - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
+      name: Bachelor's of Science in Computer Science,
+      date: "2025",
+      organization: "Lebanese International University",
     }
   - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
-    }
-  - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
+      name: Lebanese Baccaleaureate II in Life Sciences,
+      date: "2021",
+      organization: "Official High School of Kobayath",
     }
 
 #-------------------------------
@@ -149,19 +144,19 @@ education:
 services-title: Services
 services:
   - {
-      name: UI Design,
+      name: Data Analysis,
       icon: ti-palette,
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       active: ,# Add true to select section
     }
   - {
-      name: UX Design,
+      name: Generative AI Development,
       icon: ti-vector,
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       active: true, # Add true to select section
     }
   - {
-      name: Interaction Design,
+      name: ML Engineering,
       icon: ti-panel,
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       active: ,# Add true to select section
@@ -189,9 +184,9 @@ portfolio-home-items:
 
 # Portfolio Page
 portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+  - { title: "Data Analysis", type: "design" }
+  - { title: "ML Engineering", type: "branding" }
+  - { title: "GenAI", type: "illustration" }
 
 portfolio-items:
   - image: "assets/images/portfolio/item-1.png"
@@ -300,4 +295,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: georgesmoussa444@gmail.com
