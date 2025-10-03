@@ -48,7 +48,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+blurb: Get to know more about me! I am a Lebanese student currently pursuing my studies in France. I have a Bachelor's Degree in Computer Sciences obtained from the Lebanese International University! My passion for this field and for the maths have pushed me to study Data Science!
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -59,28 +59,28 @@ blurb-btn-name: know more
 work-process:
   - title: "Analyze and conclude"
     icon: "assets/images/icons/plan.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content: "Perform thorough exploratory data analysis to uncover patterns, derive insights, and make data-driven conclusions that support informed decision-making."
 
   - title: "Design and implement solutions"
     icon: "assets/images/icons/design.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content: "Develop and implement machine learning models and data pipelines to address complex problems efficiently and accurately."
 
   - title: "Deliver most appropriate solution"
     icon: "assets/images/icons/print.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content: "Deploy scalable and interpretable data science solutions that align with business goals and maximize impact."
 
 # My Team Section
 team:
   - title: "Romain ROUVOY"
-    image: "assets/images/team/member-1.png"
+    image: "assets/images/team/member.jpg"
     designation: "Professor: Refresher in Computer Science"
 
   - title: "Pierre Tirilly"
-    image: "assets/images/team/member-2.png"
+    image: "assets/images/team/member.jpg"
     designation: "Professor: Algorithms & their Complexity 1"
 
   - title: "Yann TeyTaut"
-    image: "assets/images/team/member-3.png"
+    image: "assets/images/team/member.jpg"
     designation: "Professor: Python & Tools for research"
 
 #-------------------------------
@@ -146,21 +146,22 @@ services:
   - {
       name: Data Analysis,
       icon: ti-palette,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
+      description: "Perform in-depth exploratory data analysis to extract insights, identify trends, and support data-driven decision-making.",
+      active: false,
     }
   - {
       name: Generative AI Development,
       icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: true, # Add true to select section
+      description: "Design and develop generative AI models to create novel content, automate creative tasks, and enhance innovation.",
+      active: true,
     }
   - {
       name: ML Engineering,
       icon: ti-panel,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
+      description: "Build scalable machine learning pipelines, optimize model performance, and integrate solutions into production environments.",
+      active: false,
     }
+
 
 #-------------------------------
 # Portfolio (Section and Page)
@@ -245,17 +246,17 @@ testimonial-items:
   - name: "Jesica Gomez"
     image: "assets/images/testimonial/client-1.png"
     designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    content: "The data analysis provided by the team gave us clear insights that transformed our business strategy. Their professionalism and expertise are unmatched."
 
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Mark Thompson"
+    image: "assets/images/testimonial/client-2.png"
+    designation: "CTO, InnovateX"
+    content: "Their generative AI development accelerated our product innovation cycles, delivering creative solutions that exceeded expectations."
 
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  - name: "Samantha Lee"
+    image: "assets/images/testimonial/client-3.png"
+    designation: "Product Manager, DataFlow"
+    content: "ML engineering support from the team helped us deploy reliable and scalable models into production, boosting performance and user satisfaction."
 
 #-------------------------------
 # Client Slider Section
